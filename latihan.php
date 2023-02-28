@@ -1,46 +1,46 @@
 <?php
-    $mahasiswa = [
+    $Latihan = [
         [
             "no" =>1,
-            "matakuliah" => "Logika Informatika"
+            "matakuliah" => "Logika Informatika",
             "Kode-Matakuliah"=>"I108",
-            "Hm"=>"A"
+            "Hm"=>"A",
             "Am"=>"4.00",
             "k"=>2,
             "m"=>8,
         ],
         [
             "no" =>2,
-            "matakuliah" => "Pemrograman Aplikasi Bergerak 1"
+            "matakuliah" => "Pemrograman Aplikasi Bergerak 1",
             "Kode-Matakuliah"=>"IF0018",
-            "Hm"=>"A"
+            "Hm"=>"A",
             "Am"=>"4.00",
             "k"=>3,
             "m"=>12,   
         ],
         [
             "no" =>3,
-            "matakuliah" => "Pemrograman Web 1"
+            "matakuliah" => "Pemrograman Web 1",
             "Kode-Matakuliah"=>"IF0012",
-            "Hm"=>"A"
+            "Hm"=>"A",
             "Am"=>"4.00",
             "k"=>3,
             "m"=>12,
         ],
         [
             "no" =>4,
-            "matakuliah" => "Paket Program Niaga"
+            "matakuliah" => "Paket Program Niaga",
             "Kode-Matakuliah"=>"I1106",
-            "Hm"=>"A-"
+            "Hm"=>"A",
             "Am"=>"3.70",
             "k"=>2,
             "m"=>7,4,   
         ],
         [
             "no" =>5,
-            "matakuliah" => "Bahasa Inggris"
+            "matakuliah" => "Bahasa Inggris",
             "Kode-Matakuliah"=>"R0001",
-            "Hm"=>"A-"
+            "Hm"=>"A",
             "Am"=>"3.70",
             "k"=>2,
             "m"=>7.4,
@@ -61,14 +61,14 @@
             <td>K</td>
             <td>M</td>
     </tr>";
-    foreach($nahasiswa as $data){
-        echo "<tr>"
-            <td>".$data['no'].</td>
-            <td>".$data['matakuliah'].</td>
-            <td>".$data['kode-matakuliah'].</td>
-            <td>".$data['Hm'].</td>
-            <td>".$data['Am'].</td>
-            <td>".$data['M'].</td>
+    foreach($Latihan as $data){
+        echo "<tr>
+            <td>".$data['no']."</td>
+            <td>".$data['matakuliah']."</td>
+            <td>".$data['kode-matakuliah']."</td>
+            <td>".$data['Hm']."</td>
+            <td>".$data['Am']."</td>
+            <td>".$data['M']."</td>
 
             </tr>";
     }  
